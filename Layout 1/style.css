@@ -1,10 +1,49 @@
 body, header {
     margin: 0;
     padding: 0;
-    
+    overflow: hidden;
 }
 
-h1 {
-    font-weight: 10;
+.h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+}
+
+.computer {
+    justify-content: center;
+}
+
+.web1 {
+    text-decoration: none;
+    color: rgb(0, 162, 255);
+    font-size: 20px;
+}
+
+.web2 {
+    text-decoration: none;
+    color: rgb(0, 162, 255);
+    font-size: 20px;
+}
+
+.web3 {
+    text-decoration: none;
+    color: rgb(0, 162, 255);
+    font-size: 20px;
+}
+
+.web4 {
+    text-decoration: none;
+    color: rgb(0, 162, 255);
+    font-size: 20px;
+}
+
+.paragraph1 {
+    width: 700px;
+    text-align: center;
+}
+
+.paragraph2 {
+    width: 700px;
+    text-align: center;
+    
 }
