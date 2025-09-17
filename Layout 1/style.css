@@ -1,17 +1,33 @@
+@font-face {
+    font-family: 'Windows';
+    src: url('Assets/Fonts/windows-bold[1].ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
 body, header {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: none;
 }
 
-.h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+h1 {
+    font-family: 'Windows', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Windows', sans-serif;
     text-align: center;
 }
 
 .computer {
-    justify-content: center;
+    display: block;
+    width: 1000px;  
+    margin: 50px auto 0;
 }
+
 
 .web1 {
     text-decoration: none;
@@ -38,12 +54,18 @@ body, header {
 }
 
 .paragraph1 {
-    width: 700px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 1000px;
     text-align: center;
+    font-size: 20px;
 }
 
 .paragraph2 {
-    width: 700px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 1000px;
     text-align: center;
+    font-size: 20px;
     
 }
