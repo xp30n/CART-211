@@ -25,12 +25,27 @@ nav {
     float: left;
 }
 
-footer {
-    margin-bottom: 30px;
-    float: left;
-}
-
 .wrapper {
     float: right;
     width: 60%;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+h3 {
+    color: #999;
+}
+
+.book {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.book img {
+    width: 100%;
+}
+
+footer {
+    margin-top: 50px;
+    float: left;
 }
