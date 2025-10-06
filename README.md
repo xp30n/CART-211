@@ -16,7 +16,7 @@
 This is a collection of assignments and projects made exclusively for CART 211
 
 
-### ⏻ Projects & Assignments
+### 💽 Projects & Assignments
 > Coming soon...
 
 
