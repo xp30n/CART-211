@@ -1,4 +1,4 @@
-## CART 211 SYSTEM BOOT SEQUENCE ✮⋆˙💿༘⋆｡˚
+# CART 211 SYSTEM BOOT SEQUENCE ✮⋆˙💿༘⋆｡˚
 
 ![booting](./assets/cart211-banner.png)
 > Loading creative protocols...
@@ -7,7 +7,7 @@
 > ✅ System online.
 
 
-# 📂 CART 211: Creative Computating & Network Culture
+## 📂 CART 211: Creative Computating & Network Culture
 **User:** Aliyah
 **System:** Repository Interface v2.1  
 
@@ -20,7 +20,7 @@ This is a collection of assignments and projects made exclusively for CART 211
 > Coming soon...
 
 
-## CART 211 SYSTEM POWER DOWN SEQUENCE 🌐
+# CART 211 SYSTEM POWER DOWN SEQUENCE 🌐
 > System shutting down...
 > Saving progress...
 > CART211 process terminated.
