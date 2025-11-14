@@ -10,7 +10,6 @@ body {
   color: #073d89;
 }
 
-/* CRT container */
 .crt-startup {
   position: relative;
   width: 100%;
@@ -20,7 +19,6 @@ body {
   animation: startup 2.5s ease-in-out forwards;
 }
 
-/* scanline flash */
 .crt-startup::before {
   content: "";
   position: absolute;
@@ -33,15 +31,22 @@ body {
   animation: flash 1.5s ease-in-out forwards;
 }
 
-/* text content */
 .content {
   opacity: 0;
   text-align: center;
   font-size: 2rem;
-  animation: fadeIn 3s ease-in-out 2s forwards;
+  animation: fadeIn 3s ease-in-out 3s forwards;
 }
 
-/* Scanline overlay */
+.logo {
+  position: absolute;
+  margin: auto;
+  margin-top: 160px;
+  margin-left: -250px;
+  width: 500px;
+  height: auto;
+}
+
 .scanline {
   position: absolute;
   top: 0;
@@ -57,7 +62,6 @@ body {
   pointer-events: none;
 }
 
-/* Animations */
 @keyframes flash {
   0% {
     transform: scaleY(0.002);
