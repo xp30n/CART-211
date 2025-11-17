@@ -39,12 +39,14 @@ body {
 }
 
 .logo {
-  position: absolute;
-  margin: auto;
-  margin-top: 160px;
-  margin-left: -250px;
+  display: block;
+  margin: 160px auto 0 auto; 
   width: 500px;
   height: auto;
+}
+
+.username {
+  
 }
 
 .scanline {
