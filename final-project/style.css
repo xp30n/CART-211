@@ -142,3 +142,48 @@
   z-index: 999;
   pointer-events: auto;
 }
+
+.angel {
+  position: absolute;
+  top: 31%;
+  left: -6%;
+  width: 40%;
+  height: 40%;
+  object-fit: contain;
+  z-index: 999;
+  pointer-events: auto;
+}
+
+/**
+/// PAGE 4 ////
+**/
+
+.algorithm-screen {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.grid-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;   /* behind your content */
+  pointer-events: none;
+}
+
+.character {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+  z-index: 2;
+  pointer-events: none;
+}
