@@ -105,8 +105,7 @@
   margin: 0;
   padding: 0;
   height: 100vh;
-  background: url("assets/images/background.png") no-repeat center center /
-    cover;
+  background: url("assets/images/background.png") no-repeat center center /cover;
   overflow: hidden;
   z-index: 1;
 }
@@ -190,9 +189,9 @@
 
 .rectangle-info {
   position: absolute;
-  top: 40%;
+  top: 42%;
   left: 2%;
-  width: auto;
+  width: 38vw;
   height: auto;
   object-fit: contain;
   z-index: 3;
@@ -200,9 +199,9 @@
 
 .square-info {
   position: absolute;
-  top: 10%;
-  left: 60%;
-  width: auto;
+  top: 15%;
+  left: 65%;
+  width: 30vw;
   height: auto;
   object-fit: contain;
   z-index: 3;
