@@ -173,7 +173,7 @@
   width: 100%;
   height: 100vh;
   object-fit: cover;
-  z-index: -1;   /* behind your content */
+  z-index: -1; 
   pointer-events: none;
 }
 
@@ -186,4 +186,24 @@
   object-fit: contain;
   z-index: 2;
   pointer-events: none;
+}
+
+.rectangle-info {
+  position: absolute;
+  top: 40%;
+  left: 2%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  z-index: 3;
+}
+
+.square-info {
+  position: absolute;
+  top: 10%;
+  left: 60%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  z-index: 3;
 }
