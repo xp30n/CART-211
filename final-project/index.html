@@ -1,30 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Transmission Received</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body class="index-screen">
-    <!-- CRT Startup -->
-     <div class="crt-startup">
-        <div class="scanline"></div>
-        <div class="content">
-          
-          <!--Exos Logo-->
-          <img src="assets/images/EXOS.png" 
-          class="logo" 
-          alt="ex0S-logo" 
-          id="logo">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="index-screen">
 
-          <!-- Initiating Sequence writing -->
-          <img src="assets/images/INITIATING.png" 
-          class="initiating-sequence" 
-          alt="Initiating Sequence" 
-          id="initiating-sequence">
+    <!-- CRT Startup -->
+    <div class="crt-startup">
+      <div class="scanline"></div>
+      <div class="content">
+
+        <!--Exos Logo-->
+        <div id="initiation">
+          <img
+            src="assets/images/EXOS.png"
+            class="logo"
+            alt="ex0S-logo"
+            id="logo"
+          />
         </div>
+
+        <!-- Initiating Sequence writing -->
+        <img
+          src="assets/images/INITIATING.png"
+          class="initiating-sequence"
+          alt="Initiating Sequence"
+          id="initiating-sequence"
+        />
       </div>
-      
-</body>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
