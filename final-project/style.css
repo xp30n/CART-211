@@ -1,6 +1,7 @@
 /**
 /// LANDING PAGE ////
 **/
+
 .index-screen {
   background-color: black;
   overflow: hidden;
@@ -36,16 +37,16 @@
 }
 
 .content {
-  opacity: 0;
   text-align: center;
   font-size: 2rem;
-  animation: fadeIn 3s ease-in-out 3s forwards;
+  opacity: 0;
+  animation: fadeIn 0.5s ease-out 2.8s forwards;
 }
 
 .logo {
   display: block;
   margin: 160px auto 0 auto;
-  width: 500px;
+  width: 600px;
   height: auto;
 }
 
