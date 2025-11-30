@@ -1,6 +1,6 @@
-/**
-/// LANDING PAGE ////
-**/
+/*==================================================
+=                   LANDING PAGE                   =
+==================================================*/
 
 .index-screen {
   background-color: black;
@@ -114,9 +114,9 @@
   }
 }
 
-/**
-//// PAGE 2 ////
-**/
+/*==================================================
+=                     PAGE 2                       =
+==================================================*/
 
 .navigation-screen {
   margin: 0;
@@ -309,9 +309,9 @@
   background: #ffffff;
 }
 
-/**
-/// PAGE 3 ////
-**/
+/*==================================================
+=                     PAGE 3                       =
+==================================================*/
 
 .truth-screen {
   margin: 0;
@@ -397,9 +397,9 @@
   z-index: 3;
 }
 
-/**
-//// PAGE 5 ////
-**/
+/*==================================================
+=                     PAGE 5                       =
+==================================================*/
 
 .warning-screen {
   margin: 0;
@@ -476,9 +476,9 @@
   z-index: 4;
 }
 
-/**
-//// PAGE 6 ////
-**/
+/*==================================================
+=                     PAGE 6                       =
+==================================================*/
 
 .footprint-screen {
   margin: 0;
@@ -500,6 +500,28 @@
   pointer-events: none;
 }
 
+/**
+// Glowing Box //
+**/
 .terminal-box {
-  
+  width: 80vw;
+  max-width: 900px;
+  height: 70vh;
+  background: rgba(0, 0, 0, 0.7);
+  border: 2px solid #0400ff;
+  border-radius: 20px;
+  box-shadow: 0 0 40px rgb(0, 115, 255);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+
+.terminal-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
 }
