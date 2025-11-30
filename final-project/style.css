@@ -507,10 +507,11 @@
   width: 80vw;
   max-width: 900px;
   height: 70vh;
+  margin: 130px auto;
   background: rgba(0, 0, 0, 0.7);
-  border: 2px solid #0400ff;
+  border: 2px solid #0044ff;
   border-radius: 20px;
-  box-shadow: 0 0 40px rgb(0, 115, 255);
+  box-shadow: 0 0 40px #0044ff;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -524,4 +525,71 @@
   position: relative;
   height: 100%;
   overflow: hidden;
+}
+
+.terminal-output {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  white-space: pre-wrap;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  min-height: 0;
+  text-transform: uppercase;
+}
+
+.terminal-output > div {
+  display: block;
+}
+
+.input-line {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  background: rgba(0, 0, 0, 0.7);
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+.prompt {
+  margin-right: 10px;
+  color: #0044ff;
+}
+
+#user-input {
+  background: transparent;
+  font-family: "Courier Prime", monospace;
+  border: none;
+  outline: none;
+  color: #0400ff;
+  flex: 1;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+h3 {
+  position: absolute;
+  font-family: "Courier Prime", monospace;
+  font-weight: none;
+  font-style: normal;
+  border: none;
+  outline: none;
+  top: 4%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+}
+
+h4 {
+  position: absolute;
+  font-family: "Courier Prime", monospace;
+  font-weight: none;
+  font-style: normal;
+  border: none;
+  outline: none;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
 }
