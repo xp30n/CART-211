@@ -50,6 +50,22 @@
   height: auto;
 }
 
+.initiating-sequence {
+  animation: initiationPulse 2s infinite;
+}
+
+@keyframes initiationPulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .scanline {
   position: absolute;
   top: 0;
@@ -416,7 +432,20 @@
   top: 20%;
   left: 50%;
   transform: translateX(-50%);
+  animation: warningPulse 2s infinite;
   z-index: 4;
+}
+
+@keyframes warningPulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .warning-msg {
