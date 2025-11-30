@@ -405,18 +405,8 @@
   margin: 0;
   padding: 0;
   height: 100vh;
+  background-color: black;
   overflow: hidden;
-}
-
-.bw-video {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
-  z-index: 1; 
-  pointer-events: none;
 }
 
 .information-container {
@@ -484,4 +474,32 @@
   left: 60%;
   transform: translateX(-50%);
   z-index: 4;
+}
+
+/**
+//// PAGE 6 ////
+**/
+
+.footprint-screen {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Courier Prime", monospace;
+  color: #0400ff;
+  overflow: hidden;
+}
+
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -3; 
+  pointer-events: none;
+}
+
+.terminal-box {
+  
 }
