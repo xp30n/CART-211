@@ -11,7 +11,7 @@
 **System:** Repository Interface v2.1
 
 ### 💽 Projects & Assignments
-> <a href="#"target="_blank">FINAL PROJECT [COMING SOON]</a>
+[FINAL PROJECT COMING SOON](#)
 
 # CART 211 SYSTEM POWER DOWN SEQUENCE 🌐
 > System shutting down...<br>
