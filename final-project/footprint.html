@@ -4,46 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DIGITAL FOOTPRINT</title>
+
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"
       rel="stylesheet"
     />
   </head>
-  <body class="footprint-screen"></body>
-  <div>
+
+  <body class="footprint-screen">
+
     <video
-    class="background-video"
-    src="assets/videos/bw-video.webm"
-    autoplay
-    loop
-    muted
-    playsinline></video>
-  </div>
+      class="background-video"
+      src="assets/videos/bw-video.webm"
+      autoplay
+      loop
+      muted
+      playsinline>
+    </video>
 
-  <!-- TITLE -->
-  <div>
+    <!-- TITLE -->
     <h3>WELCOME TO YOUR DIGITAL FOOTPRINT</h3>
-  </div>
 
-  <!--INSTRUCTIONS-->
-  <div>
+    <!-- INSTRUCTIONS -->
     <h4>TYPE 'HELP' FOR A LIST OF COMMANDS</h4>
-  </div>
 
-  <!--FAKE TERMINAL-->
-  <div class="terminal-box">
-    <div class="terminal-wrapper">
-        <div id="terminal" class="terminal-output">
-          <div class="input-line">
-            <span class="prompt">EXOS</span>
-            <input id="user-input" type="text" autocomplete="off" autofocus />
-          </div>
+    <!-- TERMINAL BOX -->
+    <div class="terminal-box">
+      <div class="terminal-wrapper">
+
+        <!-- OUTPUT AREA -->
+        <div id="terminal" class="terminal-output"></div>
+
+        <!-- INPUT AREA (correct position) -->
+        <div class="input-line">
+          <span class="prompt">EX0S ></span>
+          <input id="user-input" type="text" autocomplete="off" autofocus />
+          <span class="cursor"></span>
         </div>
+
       </div>
-  </div>
+    </div>
 
     <script src="scripts/footprint.js"></script>
   </body>
