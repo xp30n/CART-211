@@ -929,7 +929,79 @@ main {
   display: block;
 }
 
-
 /*=================================================
-=                     PAGE                        =
+=                     PAGE 9                       =
 ==================================================*/
+
+.join-screen {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.join-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.initialize {
+  position: absolute;
+  width: 36vw;
+  top: 15vh;
+  left: 32vw;
+  z-index: 7;
+}
+
+.terminal-window {
+  position: absolute;
+  width: 45vw;
+  top: 10vh;
+  left: 50vw;
+  transform: translateX(-50%);
+  z-index: 5;
+}
+
+.join-text {
+  position: absolute;
+  font-size: 2.5em;
+  top: 62vh;
+  left: 46vw;
+  font-family: monospace;
+  text-align: center;
+  justify-content: center;
+  color: rgb(26, 255, 0);
+  z-index: 7;
+}
+
+.open-eyes {
+  position: absolute;
+  font-size: 2.5em;
+  top: 68vh;
+  left: 37vw;
+  font-family: monospace;
+  text-align: center;
+  justify-content: center;
+  color: rgb(26, 255, 0);
+  z-index: 7;
+}
+
+.green-btn {
+  position: absolute;
+  top: 81vh;
+  left: 47vw;
+  background: rgb(26, 255, 0);
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  z-index: 9;
+}

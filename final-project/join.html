@@ -1,11 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JOIN US</title>
+    <link rel="stylesheet" href="style.css"
+  </head>
+  <body class="join-screen">
+    <main>
+      <!-- BACKGROUND VIDEO -->
+      <video
+        class="join-background"
+        id="join-background"
+        src="assets/videos/marathon.webm"
+        autoplay
+        loop
+        muted
+        playsinline
+      ></video>
+
+      <video
+        class="initialize"
+        id="initialize"
+        src="assets/videos/initializing.webm"
+        autoplay
+        loop
+        muted
+        playsinline
+      ></video>
+
+      <figure>
+        <img
+          src="assets/images/terminal-window.png"
+          class="terminal-window"
+          id="terminal-window"
+        />
+      </figure>
+
+      <p class="join-text">
+        JOIN US
+      </p>
+
+      <p class="open-eyes">
+        CLICK TO OPEN YOUR EYES
+      </p>
+
+      <button class="green-btn" id="green-btn">JOIN</button>
+    </main>
+
+    <script src="scripts/join.js"></script>
+  </body>
 </html>
