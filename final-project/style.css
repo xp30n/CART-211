@@ -123,6 +123,7 @@
   padding: 0;
   width: 100%;
   display: flex;
+  font-family: monospace;
   flex-direction: row;
   align-items: center;
   height: 100vh;
@@ -131,7 +132,62 @@
   z-index: 1;
 }
 
+.side-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 20px;
+}
 
+.nav-top .brand {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 1.7;
+  font-size: 14px;
+}
+
+li {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+li:hover {
+  opacity: 1;
+}
+
+.active {
+  opacity: 1;
+}
+
+.page-footer {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  font-size: 17px;
+}
+
+.page-footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-right a:hover {
+  text-decoration: underline;
+}
 
 /*=================================================
 =                     PAGE 3                       =
@@ -168,9 +224,9 @@
   z-index: 1;
 }
 
-/**
-/// PAGE 4 ////
-**/
+/*=================================================
+=                     PAGE 4                       =
+==================================================*/
 
 .algorithm-screen {
   margin: 0;
