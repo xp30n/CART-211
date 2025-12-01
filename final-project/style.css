@@ -126,7 +126,8 @@
   flex-direction: row;
   align-items: center;
   height: 100vh;
-  background: url("assets/images/black-tester.jpg") no-repeat center center /cover;
+  background: url("assets/images/black-tester.jpg") no-repeat center center /
+    cover;
   overflow: hidden;
   z-index: 1;
 }
@@ -190,7 +191,7 @@
   opacity: 1;
   transform: translateX(-50%) scale(1.2);
   z-index: 3;
-  box-shadow: -2px 5px 33px 6px rgba(255,255,255,0.35);
+  box-shadow: -2px 5px 33px 6px rgba(255, 255, 255, 0.35);
 }
 
 .gallery-item-6 {
@@ -215,7 +216,7 @@
 }
 
 .gallery-item-9 {
-  left: 110%; 
+  left: 110%;
   opacity: 0.2;
   transform: translateX(-50%) scale(0.6);
   z-index: 0;
@@ -250,7 +251,7 @@
 .gallery-controls-previous::before {
   border: solid #ffffff;
   border-width: 0 5px 5px 0;
-  content: '';
+  content: "";
   display: inline-block;
   height: 5px;
   left: -30px;
@@ -258,7 +259,7 @@
   position: absolute;
   top: 25%;
   transform: rotate(135deg) translateY(-50%);
-  transition: left  0.15s ease-in-out;
+  transition: left 0.15s ease-in-out;
   width: 5px;
 }
 
@@ -273,7 +274,7 @@
 .gallery-controls-next::before {
   border: solid #ffffff;
   border-width: 0 5px 5px 0;
-  content: '';
+  content: "";
   display: inline-block;
   height: 5px;
   padding: 10px;
@@ -281,7 +282,7 @@
   right: -30px;
   top: 25%;
   transform: rotate(-45deg) translateY(-50%);
-  transition: right .15s ease-in-out;
+  transition: right 0.15s ease-in-out;
   width: 5px;
 }
 
@@ -317,7 +318,8 @@
   margin: 0;
   padding: 0;
   height: 100vh;
-  background: url("assets/images/background.png") no-repeat center center /cover;
+  background: url("assets/images/background.png") no-repeat center center /
+    cover;
   overflow: hidden;
   z-index: 1;
 }
@@ -362,7 +364,7 @@
   width: 100%;
   height: 100vh;
   object-fit: cover;
-  z-index: -1; 
+  z-index: -1;
   pointer-events: none;
 }
 
@@ -427,13 +429,27 @@
 }
 
 @keyframes warningPulse {
-  0% { opacity: 1; }
-  20% { opacity: 0.6; }
-  25% { opacity: 0; }
-  30% { opacity: 0.8; }
-  45% { opacity: 0; }
-  60% { opacity: 1; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0.6;
+  }
+  25% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0.8;
+  }
+  45% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .warning-msg {
@@ -496,7 +512,7 @@
   width: 100%;
   height: 100vh;
   object-fit: cover;
-  z-index: -3; 
+  z-index: -3;
   pointer-events: none;
 }
 
@@ -706,11 +722,26 @@ h4 {
 }
 
 @keyframes glitch {
-  0% { transform: skewX(0deg); filter: none; }
-  25% { transform: skewX(4deg) translateX(-2px); filter: contrast(200%) hue-rotate(5deg); }
-  50% { transform: skewX(-3deg) translateX(2px); filter: contrast(280%) hue-rotate(-5deg); }
-  75% { transform: skewX(1deg); filter: contrast(180%); }
-  100% { transform: none; filter: none; }
+  0% {
+    transform: skewX(0deg);
+    filter: none;
+  }
+  25% {
+    transform: skewX(4deg) translateX(-2px);
+    filter: contrast(200%) hue-rotate(5deg);
+  }
+  50% {
+    transform: skewX(-3deg) translateX(2px);
+    filter: contrast(280%) hue-rotate(-5deg);
+  }
+  75% {
+    transform: skewX(1deg);
+    filter: contrast(180%);
+  }
+  100% {
+    transform: none;
+    filter: none;
+  }
 }
 
 @media (max-width: 600px) {
@@ -728,7 +759,7 @@ h4 {
 =                     PAGE 8                       =
 ==================================================*/
 
-.defiance-screenSWIRL {
+.defiance-screen {
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -743,7 +774,7 @@ h4 {
   width: 100%;
   height: 100vh;
   object-fit: cover;
-  z-index: 1; 
+  z-index: 1;
   pointer-events: none;
 }
 
@@ -765,7 +796,7 @@ main {
 .evanescence {
   position: absolute;
   width: 27vw;
-  top:  60vh;
+  top: 60vh;
   left: 10vw;
   z-index: 4;
 }
@@ -846,4 +877,54 @@ main {
   width: 20vh;
   line-height: 2.4;
   z-index: 7;
+}
+
+.metric {
+  position: absolute;
+  top: 10vh;
+  left: 70vw;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 1.9em;
+  text-align: center;
+  color: rgb(255, 0, 0);
+  width: 39vh;
+  line-height: 2.4;
+  z-index: 7;
+}
+
+.dino {
+  width: 43vw;
+}
+
+.hidden-dino {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+#dino-box {
+  position: absolute; 
+  top: 8vh;
+  left: 26vw;
+  z-index: 9999;
+}
+
+.ok-btn {
+  position: absolute;
+  top: 74%;
+  left: 24%;
+  z-index: 9;
+
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: url("assets/images/cursor.png") 0 0, auto;
+}
+
+.ok-btn img {
+  width: 400px; 
+  height: auto;
+  display: block;
 }
