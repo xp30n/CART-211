@@ -728,11 +728,12 @@ h4 {
 =                     PAGE 8                       =
 ==================================================*/
 
-.defiance-screen {
+.defiance-screenSWIRL {
   margin: 0;
   padding: 0;
   height: 100vh;
   overflow: hidden;
+  cursor: url("assets/images/cursor.png") 0 0, auto;
 }
 
 .xp-background {
@@ -782,23 +783,25 @@ main {
   width: 33vw;
   top: 4vh;
   left: 63vw;
-  z-index: 32;
+  z-index: 3;
 }
 
 .game-disk {
   position: absolute;
-  width: 22vw;
-  top: 57vh;
-  left: 74vw;
+  width: 20vw;
+  top: 61vh;
+  left: 75vw;
   z-index: 3;
+  animation: spin 10s linear infinite;
 }
 
-.information {
-  position: absolute;
-  width: 22vw;
-  top: 4vh;
-  left: 40vw;
-  z-index: 4;
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .avatar {
@@ -809,11 +812,11 @@ main {
   z-index: 4;
 }
 
-.clippy {
+.character {
   position: absolute;
-  width: 15vw;
-  top: 30vh;
-  left: 20vw;
+  width: 20vw;
+  top: 4vh;
+  left: 22vw;
   z-index: 4;
 }
 
@@ -823,4 +826,24 @@ main {
   top: 77vh;
   left: 25vw;
   z-index: 5;
+}
+
+.swirl {
+  position: absolute;
+  width: 18vw;
+  top: 8vh;
+  left: 40vw;
+  z-index: 4;
+}
+
+.creativity {
+  position: absolute;
+  top: 12vh;
+  left: 43vw;
+  font-family: monospace;
+  text-align: center;
+  color: rgb(26, 255, 0);
+  width: 20vh;
+  line-height: 2.4;
+  z-index: 7;
 }
