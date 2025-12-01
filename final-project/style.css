@@ -595,3 +595,39 @@ h4 {
   transform: translate(-50%, -50%);
   align-items: center;
 }
+
+/*=================================================
+=                     PAGE 7                       =
+==================================================*/
+
+.behavior-screen {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.page7-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -3; 
+  pointer-events: none;
+}
+
+.top-teeth {
+  position: absolute;
+  width: 40vw;
+  top: 3%;
+  left: 30%;
+}
+
+.bottom-teeth {
+  position: absolute;
+  width: 40vw;
+  top: 65%;
+  left: 30%;
+}
