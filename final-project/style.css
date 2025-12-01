@@ -571,11 +571,12 @@
 h3 {
   position: absolute;
   font-family: "Courier Prime", monospace;
-  font-weight: none;
+  font-weight: normal;
   font-style: normal;
+  font-size: 2em;
   border: none;
   outline: none;
-  top: 4%;
+  top: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
   align-items: center;
@@ -584,11 +585,12 @@ h3 {
 h4 {
   position: absolute;
   font-family: "Courier Prime", monospace;
-  font-weight: none;
+  font-weight: normal;
   font-style: normal;
+  font-size: 1.3em;
   border: none;
   outline: none;
-  top: 90%;
+  top: 86%;
   left: 50%;
   transform: translate(-50%, -50%);
   align-items: center;

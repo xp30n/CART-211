@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DIGITAL FOOTPRINT</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,38 +15,32 @@
   </head>
 
   <body class="footprint-screen">
-
     <video
       class="background-video"
       src="assets/videos/bw-video.webm"
       autoplay
       loop
       muted
-      playsinline>
-    </video>
+      playsinline
+    ></video>
 
-    <!-- TITLE -->
-    <h3>WELCOME TO YOUR DIGITAL FOOTPRINT</h3>
+    <header>
+      <!-- TITLE -->
+      <h3>WELCOME TO YOUR DIGITAL FOOTPRINT</h3>
 
-    <!-- INSTRUCTIONS -->
-    <h4>TYPE 'HELP' FOR A LIST OF COMMANDS</h4>
+      <!-- INSTRUCTIONS -->
+      <h4>TYPE 'HELP' FOR A LIST OF COMMANDS</h4>
+    </header>
 
-    <!-- TERMINAL BOX -->
-    <div class="terminal-box">
-      <div class="terminal-wrapper">
-
-        <!-- OUTPUT AREA -->
-        <div id="terminal" class="terminal-output"></div>
-
-        <!-- INPUT AREA (correct position) -->
-        <div class="input-line">
-          <span class="prompt">EX0S ></span>
+    <main class="terminal-box">
+      <section class="terminal-wrapper">
+        <output id="terminal" class="terminal-output"></output>
+        <form class="input-line" onsubmit="return false;">
+          <label class="prompt" for="user-input">EX0S ></label>
           <input id="user-input" type="text" autocomplete="off" autofocus />
-          <span class="cursor"></span>
-        </div>
-
-      </div>
-    </div>
+        </form>
+      </section>
+    </main>
 
     <script src="scripts/footprint.js"></script>
   </body>
