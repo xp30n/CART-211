@@ -8,17 +8,29 @@
   </head>
   <body class="behavior-screen">
     <main>
-      <video class="page7-bg"
-        src="assets/videos/page-seven-bg.webm"
-        autoplay
-        loop
-        muted
-        playsinline
-      ></video>
       <figure>
         <img src="assets/images/top-teeth.png" class="top-teeth" />
         <img src="assets/images/bottom-teeth.png" class="bottom-teeth" />
       </figure>
+
+      <!-- MACHINE'S TEXT -->
+      <section class="machine-zone">
+
+        <div class="text-core">
+            <div id="output"></div>
+        </div>
+      
+        <form id="input-form" class="input-area hidden">
+            <input id="user-input" type="text" autocomplete="off" placeholder="TYPE YOUR ANSWERS HERE"/>
+            <button id="submit-btn" type="submit">SUBMIT</button>
+        </form>
+      
+        <div class="hint" id="hint"></div>
+      </section>
+         
+    
     </main>
+
+    <script src="/scripts/behavior.js"></script>
   </body>
 </html>

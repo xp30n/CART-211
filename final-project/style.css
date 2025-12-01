@@ -604,18 +604,8 @@ h4 {
   margin: 0;
   padding: 0;
   height: 100vh;
+  background: rgb(0, 0, 0);
   overflow: hidden;
-}
-
-.page7-bg {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
-  z-index: -3; 
-  pointer-events: none;
 }
 
 .top-teeth {
@@ -623,11 +613,113 @@ h4 {
   width: 40vw;
   top: 3%;
   left: 30%;
+  z-index: 5;
 }
 
 .bottom-teeth {
   position: absolute;
   width: 40vw;
   top: 65%;
-  left: 30%;
+  left: 31%;
+  z-index: 5;
+}
+
+.machine-zone {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+  color: #ff0033;
+  z-index: 7;
+  pointer-events: none;
+}
+
+.text-core {
+  width: 100%;
+  min-height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#output {
+  width: 100%;
+}
+
+.output-line {
+  margin: 0.4rem 0;
+  white-space: pre-wrap;
+  text-align: center;
+  color: #ff0033;
+}
+
+.input-area {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 0.5rem;
+  pointer-events: auto;
+}
+
+.input-area.hidden {
+  display: none;
+}
+
+#user-input {
+  width: 40vw;
+  max-width: 450px;
+  min-width: 180px;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid #ff0033;
+  background: transparent;
+  color: #ff0033;
+  outline: none;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+#submit-btn {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #ff0033;
+  background: transparent;
+  color: #ff0033;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.hint {
+  color: #ff0033;
+  margin-top: 0.7rem;
+  font-size: 0.9rem;
+  opacity: 0.6;
+  text-align: center;
+  pointer-events: auto;
+}
+
+.glitch {
+  animation: glitch 180ms ease-in-out;
+}
+
+@keyframes glitch {
+  0% { transform: skewX(0deg); filter: none; }
+  25% { transform: skewX(4deg) translateX(-2px); filter: contrast(200%) hue-rotate(5deg); }
+  50% { transform: skewX(-3deg) translateX(2px); filter: contrast(280%) hue-rotate(-5deg); }
+  75% { transform: skewX(1deg); filter: contrast(180%); }
+  100% { transform: none; filter: none; }
+}
+
+@media (max-width: 600px) {
+  .top-teeth,
+  .bottom-teeth {
+    width: 70vw;
+    left: 15%;
+  }
+  .machine-zone {
+    width: 90vw;
+  }
 }
