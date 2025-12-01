@@ -743,4 +743,84 @@ h4 {
   height: 100vh;
   object-fit: cover;
   z-index: 1; 
+  pointer-events: none;
+}
+
+main {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  z-index: 3;
+}
+
+.form1 {
+  position: absolute;
+  width: 26vw;
+  top: 10vh;
+  left: 4vw;
+  z-index: 4;
+}
+
+.evanescence {
+  position: absolute;
+  width: 27vw;
+  top:  60vh;
+  left: 10vw;
+  z-index: 4;
+}
+
+.surveillance {
+  position: absolute;
+  width: 25vw;
+  top: 40vh;
+  left: 45vw;
+  z-index: 4;
+}
+
+.paint {
+  position: absolute;
+  width: 33vw;
+  top: 4vh;
+  left: 63vw;
+  z-index: 32;
+}
+
+.game-disk {
+  position: absolute;
+  width: 22vw;
+  top: 57vh;
+  left: 74vw;
+  z-index: 3;
+}
+
+.information {
+  position: absolute;
+  width: 22vw;
+  top: 4vh;
+  left: 40vw;
+  z-index: 4;
+}
+
+.avatar {
+  position: absolute;
+  width: 8vw;
+  top: 70vh;
+  left: 5vw;
+  z-index: 4;
+}
+
+.clippy {
+  position: absolute;
+  width: 15vw;
+  top: 30vh;
+  left: 20vw;
+  z-index: 4;
+}
+
+.glitch {
+  position: fixed;
+  width: 22vw;
+  top: 77vh;
+  left: 25vw;
+  z-index: 5;
 }
