@@ -11,7 +11,7 @@
 **System:** Repository Interface v2.1
 
 ### 💽 Projects & Assignments
-[FINAL PROJECT COMING SOON](#)
+[FINAL PROJECT](https://xp30n.github.io/CART-211/final-project/)
 
 # CART 211 SYSTEM POWER DOWN SEQUENCE 🌐
 > System shutting down...<br>
