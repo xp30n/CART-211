@@ -260,7 +260,7 @@ ul li a:hover {
   font-size: 20px;
   line-height: 1.4;
   background: black;
-  box-shadow: inset 0 0 0 3px #0800ff; 
+  box-shadow: inset 0 0 0 3px #0800ff;
   position: absolute;
   animation: fadeIn 1.6s ease-out forwards;
   opacity: 0;
@@ -315,7 +315,6 @@ ul li a:hover {
 }
 
 @media (max-width: 768px) {
-
   .ascii-wrapper {
     width: 100%;
     height: 40vh;
@@ -336,7 +335,10 @@ ul li a:hover {
     z-index: 10;
   }
 
-  .figure1, .figure2, .figure3, .figure4 {
+  .figure1,
+  .figure2,
+  .figure3,
+  .figure4 {
     top: 45%;
     bottom: auto;
     left: auto;
@@ -444,6 +446,95 @@ ul li a:hover {
   pointer-events: none;
 }
 
+.blue-btn {
+  position: absolute;
+  top: 90vh;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #00d9ff;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  z-index: 9;
+}
+
+@media (max-width: 768px) {
+  .grid-video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+
+  .border1,
+  .border2,
+  .scan-video,
+  .brain-video,
+  .cyber-frames > img {
+    display: none !important;
+  }
+
+  .prediction-model {
+    position: absolute;
+    width: 30%;
+    top: 10%;
+    left: 5%;
+    max-width: 480px;
+    margin: 20px auto;
+    padding: 10px;
+    outline: #00d9ff solid 2px;
+    background: #00d9ffd3;
+    border-radius: 20px;
+    font-size: 10px;
+    line-height: 1.6em;
+    text-align: center;
+    text-align: left;
+  }
+
+  .prediction-model2 {
+    position: absolute;
+    width: 40%;
+    top: 60%;
+    left: 44%;
+    max-width: 480px;
+    margin: 20px auto;
+    padding: 20px;
+    outline: #00d9ff solid 2px;
+    background: #00d9ffd3;
+    border-radius: 20px;
+    font-size: 10px;
+    line-height: 1.6em;
+    text-align: left;
+  }
+
+  .algorithm-logo {
+    position: absolute;
+    width: 100%;
+  }
+
+  .blue-btn {
+    position: absolute;
+    top: 90vh;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #00d9ff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 12px 28px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    z-index: 9;
+  }
+}
 
 /*==================================================
 =                     PAGE 5                       =
@@ -536,6 +627,38 @@ ul li a:hover {
   left: 60%;
   transform: translateX(-50%);
   z-index: 4;
+}
+
+@media (max-width: 768px) {
+  .warning {
+    position: absolute;
+    width: 97%;
+    top: 43%;
+  }
+
+  .warning-msg {
+    position: absolute;
+    width: 90%;
+    top: 35%;
+  }
+
+  .proceed {
+    position: absolute;
+    width: 80%;
+  }
+
+  .yes-button {
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .run-button {
+    width: 50%;
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 /*==================================================
@@ -657,6 +780,7 @@ h4 {
   transform: translate(-50%, -50%);
   align-items: center;
 }
+
 
 /*=================================================
 =                     PAGE 7                       =
@@ -950,7 +1074,7 @@ main {
 }
 
 #dino-box {
-  position: absolute; 
+  position: absolute;
   top: 8vh;
   left: 26vw;
   z-index: 9999;
@@ -970,7 +1094,7 @@ main {
 }
 
 .ok-btn img {
-  width: 400px; 
+  width: 400px;
   height: auto;
   display: block;
 }
@@ -1104,24 +1228,36 @@ main {
   height: 100%;
   pointer-events: none;
   background: repeating-linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.05) 0px,
-      rgba(0,0,0,0.05) 3px
+    to bottom,
+    rgba(255, 255, 255, 0.05) 0px,
+    rgba(0, 0, 0, 0.05) 3px
   );
   mix-blend-mode: overlay;
   opacity: 0.15;
 }
 
 @keyframes fadeInEnd {
-  to { opacity: 1; }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeOutLogo {
-  0% { opacity: 1; transform: scale(1); }
-  100% { opacity: 0; transform: scale(0.97); }
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.97);
+  }
 }
 
 @keyframes textReveal {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
