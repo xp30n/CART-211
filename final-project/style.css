@@ -314,29 +314,6 @@ ul li a:hover {
   z-index: 9;
 }
 
-/*=================================================
-=                     PAGE 4                       =
-==================================================*/
-
-.algorithm-screen {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  overflow: hidden;
-  z-index: 1;
-}
-
-.grid-video {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
-  z-index: -1;
-  pointer-events: none;
-}
-
 @media (max-width: 768px) {
 
   .ascii-wrapper {
@@ -366,7 +343,6 @@ ul li a:hover {
     right: auto;
   }
 
-
   .next-button {
     display: block;
     margin: 30px auto 40px auto;
@@ -375,6 +351,99 @@ ul li a:hover {
     transform: translateX(-50%);
   }
 }
+
+/*=================================================
+=                     PAGE 4                       =
+==================================================*/
+
+.algorithm-screen {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.grid-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.border1 {
+  position: absolute;
+  width: 30vw;
+  top: 15vh;
+  left: 7vw;
+}
+
+.border2 {
+  position: absolute;
+  width: 30vw;
+  top: 55vh;
+  left: 63vw;
+}
+
+.algorithm-logo {
+  position: absolute;
+  width: 35vw;
+}
+
+.prediction-model {
+  position: absolute;
+  width: 20vw;
+  top: 20vh;
+  left: 68vw;
+  outline: #00d9ff solid;
+  padding: 20px;
+  font-family: monospace;
+  justify-content: center;
+  text-align: center;
+  color: rgb(218, 251, 255);
+  line-height: 2.4em;
+}
+
+.prediction-model2 {
+  position: absolute;
+  width: 20vw;
+  top: 50vh;
+  left: 10vw;
+  outline: #00d9ff solid;
+  padding: 20px;
+  font-family: monospace;
+  justify-content: center;
+  text-align: center;
+  color: rgb(218, 251, 255);
+  line-height: 2.4em;
+}
+
+.scan-video {
+  position: absolute;
+  top: 59vh;
+  left: 66vw;
+  width: 25vw;
+  height: 25vh;
+  object-fit: cover;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.brain-video {
+  position: absolute;
+  top: 16vh;
+  left: 8vw;
+  width: 28%;
+  height: 25vh;
+  object-fit: cover;
+  z-index: -1;
+  pointer-events: none;
+}
+
 
 /*==================================================
 =                     PAGE 5                       =
