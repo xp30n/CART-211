@@ -167,6 +167,20 @@ li:hover {
   opacity: 1;
 }
 
+ul li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 2px 0;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
+
 .page-footer {
   position: fixed;
   bottom: 20px;
@@ -565,7 +579,7 @@ h4 {
   display: none;
 }
 
-#user-input {
+#user-input1 {
   width: 40vw;
   max-width: 450px;
   min-width: 180px;

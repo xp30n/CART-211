@@ -1,6 +1,6 @@
 const output = document.getElementById("output");
 const inputForm = document.getElementById("input-form");
-const userInput = document.getElementById("user-input");
+const userInput1 = document.getElementById("user-input1");
 const hint = document.getElementById("hint");
 const screenEl = document.querySelector(".behavior-screen");
 
@@ -19,7 +19,7 @@ let data = {
 function clearUI() {
   inputForm.classList.add("hidden");
   hint.textContent = "";
-  userInput.value = "";
+  userInput1.value = "";
 }
 
 function typeLine(text, callback) {
