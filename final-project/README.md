@@ -61,8 +61,8 @@ EXØS aims to reveal these hidden systems and empower viewers to resist, reflect
 
 ## Screenshots & Photos 🛸🩻
 ![progress](./assets/readme-assets/page8-progression.JPG)
-![skelly](./assets/readme-assets/skelly.png.JPG)
-![warning](./assets/readme-assets/warning.png.JPG)
+![skelly](./assets/readme-assets/skelly.png)
+![warning](./assets/readme-assets/warning.png)
 ![progress2](./assets/readme-assets/page9-progression.JPG)
 
 ---
