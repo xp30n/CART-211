@@ -7,16 +7,55 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="truth-screen">
-    <!-- ASCII GIF -->
-    <div class="ascii-wrapper">
+    <main>
+
       <video
-        class="ascii-video"
-        src="assets/videos/ascii-vid.webm"
-        autoplay
-        loop
-        muted
-        playsinline
-      ></video>
-      
+          class="graveyard-video"
+          src="assets/videos/graveyard.webm"
+          autoplay
+          loop
+          muted
+          playsinline
+        ></video>
+
+      <section class="ascii-wrapper">
+        <!-- ASCII GIF -->
+        <video
+          class="ascii-video"
+          src="assets/videos/ascii-vid.webm"
+          autoplay
+          loop
+          muted
+          playsinline
+        ></video>
+      </section>
+
+      <!-- Information Fragments -->
+      <section class="data-figure figure1">
+        Surveillance Capitalism is the system where your data becomes the
+        product.
+      </section>
+
+      <section class="data-figure figure2">
+        Every single click, pause, scroll, and hesitation is tracked and
+        monetized.
+      </section>
+
+      <section class="data-figure figure3">
+        Algorithms study you more closely than any human ever could.
+      </section>
+
+      <section class="data-figure figure4">
+        The goal isn't to serve you anymore. It's to predict you.
+      </section>
+
+      <button class="next-button" id="next-button">NEXT</button>
+
+      <script>
+        document.getElementById("next-button").addEventListener("click", () => {
+          window.location.href = "algorithm.html";
+        });
+      </script>
+    </main>
   </body>
 </html>
