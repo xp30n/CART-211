@@ -72,7 +72,7 @@ async function processCommand(cmd) {
   } else if (cmd === "CONTINUE") {
     await typeText("REDIRECTING TO NEXT ACCESS NODE...");
     setTimeout(() => {
-      window.location.href = "#";
+      window.location.href = "behavior.html";
     }, 800);
 
   } else {

@@ -7,7 +7,6 @@ const screenEl = document.querySelector(".behavior-screen");
 let step = 0;
 let typing = false;
 
-let readyToContinue = false;
 
 let data = {
   emotion: "",
@@ -56,7 +55,7 @@ function next() {
       typeLine("What emotion controls you the most?", () => {
         inputForm.classList.remove("hidden");
         hint.textContent = "type and submit";
-        userInput.focus();
+        userInput1.focus();
       })
     );
   }
@@ -66,7 +65,7 @@ function next() {
       typeLine("What do you fear losing the most?", () => {
         inputForm.classList.remove("hidden");
         hint.textContent = "type and submit";
-        userInput.focus();
+        userInput1.focus();
       })
     );
   }
@@ -76,7 +75,7 @@ function next() {
       typeLine("What part of yourself do you pretend is fine?", () => {
         inputForm.classList.remove("hidden");
         hint.textContent = "type and submit";
-        userInput.focus();
+        userInput1.focus();
       })
     );
   }
@@ -86,7 +85,7 @@ function next() {
       typeLine("What would you trade for perfect personalization?", () => {
         inputForm.classList.remove("hidden");
         hint.textContent = "type and submit";
-        userInput.focus();
+        userInput1.focus();
       })
     );
   }
@@ -112,8 +111,10 @@ function finalProfile() {
                   glitch();
                   setTimeout(() => {
                     typeLine("—saved. We meant saved.", () => {
-                      hint.textContent = "sequence complete. Press enter to continue.";
-                      readyToContinue = true;
+                      hint.textContent = "sequence complete.";
+                      setTimeout(() => {
+                        window.location.href = "defiance.html";
+                      }, 1500);
                     });
                   }, 250);
                 })
@@ -127,8 +128,8 @@ function finalProfile() {
 }
 
 document.addEventListener("keydown", (e) => {
-    if (readyToContinue && e.key === "Enter"){
-        window.location.href = "#";
+    if (readyToContinue){
+        window.location.href = "defiance.html";
     }
 });
 
@@ -136,7 +137,7 @@ inputForm.addEventListener("submit", (e) => {
   e.preventDefault();
   if (typing) return;
 
-  const val = userInput.value.trim();
+  const val = userInput1.value.trim();
   if (!val) return;
 
   glitch();
