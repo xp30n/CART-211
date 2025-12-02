@@ -781,6 +781,20 @@ h4 {
   align-items: center;
 }
 
+@media (max-width: 768px) {
+  h3 {
+    text-align: center;
+    top: 7%;
+    font-size: 120%;
+  }
+
+  h4 {
+    text-align: center;
+    top: 90%;
+    font-size: 120%;
+  }
+}
+
 
 /*=================================================
 =                     PAGE 7                       =
@@ -914,12 +928,29 @@ h4 {
   }
 }
 
-@media (max-width: 600px) {
-  .top-teeth,
-  .bottom-teeth {
-    width: 70vw;
-    left: 15%;
+@media (max-width: 768px) {
+  .top-teeth{
+    width: 75vw;
+    left: 14%;
+    top: 16%;
   }
+
+  .bottom-teeth {
+    width: 75vw;
+    left: 15%;
+    top: 60%;
+  }
+
+  #user-input1::placeholder {
+    font-size: 12px;
+  }
+
+ #output {
+    position: absolute;
+    font-size: 20px;
+    top: 15%;
+  }
+
   .machine-zone {
     width: 90vw;
   }
@@ -1174,6 +1205,10 @@ main {
   font-weight: 600;
   cursor: pointer;
   z-index: 9;
+}
+
+@media (max-width: 768px) {
+
 }
 
 /*=================================================
