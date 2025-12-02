@@ -127,12 +127,6 @@ function finalProfile() {
   });
 }
 
-document.addEventListener("keydown", (e) => {
-    if (readyToContinue){
-        window.location.href = "defiance.html";
-    }
-});
-
 inputForm.addEventListener("submit", (e) => {
   e.preventDefault();
   if (typing) return;
