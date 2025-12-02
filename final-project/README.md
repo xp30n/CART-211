@@ -33,7 +33,6 @@ EXØS is a 10-page interactive web experience exploring the systems and psycholo
 CRT startup animation introducing EXØS.
 
 ### **Page 2 — NAVIGATION PAGE**
-*(Describe what page 2 does once you're done editing it.)*
 
 ### **Page 3–6 — SYSTEM BEHAVIORS**
 Exploration of curated truths, algorithmic shaping, data influence.
@@ -53,7 +52,7 @@ Final shutdown mirroring Page 1. Closure of the narrative.
 ---
 
 ## Artistic Statement 🔗
-This project critiques how surveillance capitalism profiles users, shapes behavior, and monetizes emotion. By putting the viewer through a playful-yet-unsettling digital ritual—interrogations, glitches, false personalization, distraction—the experience mirrors real digital ecosystems that collect data to manipulate users.
+This project critiques how surveillance capitalism profiles users, shapes behavior, and monetizes emotion. By putting the viewer through a playful yet strange digital ritual interrogations, glitches, false personalization, distraction—the experience mirrors real digital ecosystems that collect data to manipulate users.
 
 EXØS aims to reveal these hidden systems and empower viewers to resist, reflect, and reclaim agency.
 
