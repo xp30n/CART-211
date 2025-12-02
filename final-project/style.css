@@ -117,7 +117,16 @@
 @media (max-width: 768px) {
   .logo {
     position: absolute; 
-    top: 15%; 
+    top: 20%;
+    width: 95%;
+    left: 3%;
+  }
+
+  .initiating-sequence {
+    position: absolute;
+    width: 85%;
+    top: 44%;
+    left: 8%;
   }
 }
 
@@ -190,7 +199,7 @@ ul li a:hover {
 
 .page-footer {
   position: fixed;
-  bottom: 20px;
+  bottom: 1px;
   left: 20px;
   right: 20px;
 
@@ -356,6 +365,43 @@ ul li a:hover {
     display: block;
     margin: 30px auto 40px auto;
     top: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/**
+ ** IPHONE USER SETTINGS !!! 
+**/
+@supports (-webkit-touch-callout: none) {
+  body {
+    background: black;
+  }
+
+  .ascii-video {
+    position: absolute;
+    top: -7%;
+    width: 67%;
+    left: 18%;
+    background: transparent;
+  }
+
+  .figure1,
+  .figure2,
+  .figure3,
+  .figure4 {
+    font-size: 0.9em;
+    width: 80%;
+    top: 41%;
+    bottom: auto;
+    left: auto;
+    right: auto;
+  }
+
+  .next-button {
+    display: block;
+    margin: 30px auto 40px auto;
+    top: 82%;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -541,6 +587,10 @@ ul li a:hover {
     cursor: pointer;
     z-index: 9;
   }
+}
+
+@supports (-webkit-touch-callout: none) {
+  
 }
 
 /*==================================================
